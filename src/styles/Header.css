@@ -1,0 +1,59 @@
+.Header{
+    height: 100px;
+    width: 100%;
+    background: #E1EDE6;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    color: #598D66;
+    font-weight: 700;
+    font-size: 20px;
+}
+.logo{
+    margin-top: -5px;
+    margin-right: 497px;
+}
+.logo_span{
+    margin-top: 20px;
+    margin-left: 8px;
+    position: absolute;
+}
+.logo a svg{
+    margin-top: 13px;
+}
+.navbar a{
+    margin-right: 59px;
+    transition: all .1s;
+}
+.navbar{
+    margin-left: 110px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: #598D66;
+}
+.shoping{
+    position: absolute;
+    /* margin-top: 10px; */
+}
+.shoping path{
+    transition: all .1s;
+}
+.shoping:hover path{
+    stroke: #598D66;
+}
+
+@media (max-width: 1300px) {
+    .navbar{
+        margin-left: 50px;
+    }
+    .logo{
+        margin-right: 350px;
+    }
+    .Header{
+        padding-left: 100px;
+    }
+}
