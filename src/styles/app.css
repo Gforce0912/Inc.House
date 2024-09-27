@@ -9,3 +9,34 @@ a{
     text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.PropductBtn{
+    padding: 21px 60px;
+    border: solid #598D66 1px;
+    background: none;
+    color: #598D66;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .1s;
+}
+.PropductBtn:hover{
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+.PropductBtn:focus{
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+@media (max-width: 400px){
+    .Replicas_back{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .logo{
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+}
